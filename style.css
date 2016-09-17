@@ -83,7 +83,7 @@
 	text-align: center;
 	font-size: 24px;
 	margin: 0;
-	color:#fff;
+	color:#dd3f19;
 	font-weight: lighter;
 	letter-spacing: 5px;
 	font-family: "MyriadProRegular", sans-serif;
@@ -95,7 +95,7 @@
 	text-transform: uppercase;
 	font-size: 100px;
 	font-weight: 100;
-	letter-spacing: 45px;
+	letter-spacing: 43px;
 	font-family: "MyriadProRegular", sans-serif;
 }
 
@@ -127,6 +127,7 @@
 
 .service-item:last-child{margin-right: 0}
 .service-item{
+
 	width: 300px;
 	float:left;
 	margin-top:90px;
@@ -134,13 +135,22 @@
 	margin-bottom:80px;
 }
 
-.service-item img{padding-left:95px;}
+.service-item img{
+	padding-bottom: 25px;
+	padding-left:95px;}
 
-.service-item-title{
-	font-weight: lighter;
-	font-size: 25px;
+.service-item-title a:hover{color:#dd3f19;}
+.service-item-title a{
+	    color: #000;
+    font-weight: lighter;
+    font-size: 23px;
+    /* width: 324px; */
+    /* margin: 0 auto; */
+    display: block;
+    text-align: center;
     margin-top: 30px;
-    padding-left: 30px;
+    /* padding-left: 22px; */
+    text-decoration: none;
 
 }
 .service-item p{
@@ -185,7 +195,19 @@
 	float: left;
 	margin-right: 20px
 }
-
+.portfolio-item-desc:hover{color:#dd3f19;}
+.portfolio-item a{
+	padding-top: 10px;
+    margin:0 auto;
+    width:295px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    
+    margin-top: 15px;
+    font-weight: lighter;
+    display: inline-block;
+}
 .portfolio-item-desc{
 	font-size: 18px;
 	text-align: center;
@@ -390,3 +412,20 @@ border-bottom: 1px solid #e5e5e5;
     font-style: normal;
     font-weight: normal;
 }
+
+.footer-title a{
+
+	letter-spacing: 3px;
+	font-size: 24px;
+	font-weight: 100;
+	text-transform: uppercase;
+	color:#fff;
+	text-decoration: none;
+	
+}
+
+.footer-title span{
+	position: relative;
+	top: 5px;
+    padding: 0 2px 0 2px;
+	}
