@@ -8,10 +8,40 @@
 </head>
 <body>
 
+<div class="email-form">
+<div class="closed popup"><img src="img/Close.png" alt=""></div>
+<!--
+<div class="closed">
+<div class="one popup"></div>
+<div class="two popup"></div>
+</div>
+-->
+
+	<div class="email-form-title">
+		Напишите нам 
+	</div>
+	<div class="email-form-desc">
+		Как правило, к выбору ящика для своей электронной почты многие подходят легкомысленно - долго ломают голову над тем, какую придумать себе учетную запись и пароль, но при этом совершенно не придают значения, какой именно из сервисов выбрать.
+	</div>
+	<form action="">
+	<input type="name" name="name" required placeholder="Как тебя зовут?">
+	<input   type="email" required name="contact-email" placeholder="Почтовый адрес?">
+	<input type="text" required name="subject" placeholder="Тема письма">
+	
+	
+	<textarea rows="4" cols="24" placeholder="Расскажите как мы можем Вам помочь" required></textarea>
+	<button class="email-form-btn">отправить</button>
+	</form>
+</div>
+
 <aside class="top_side ">
+<div class="top_side-closed btn_mnu1">
+			<img src="img/Close.png" alt="">
+		</div>
 	<div class="container">
 
 		<div class="top_side-column">
+		
 		<div class="top_side_cont">
 			Наши контакты
 		</div>
@@ -27,7 +57,7 @@
 		hellofriend@суперновый.рф
 		</div>
 		<div class="top_side-phone">8(909)745-94-91</div>
-		<a href="#" class="btn-top_side" class="popup">Написать письмо</a>
+		<a href="#" class="btn-top_side popup">Написать письмо</a>
 		</div>
 
 		<div class="top_side-column">
@@ -217,11 +247,18 @@ $(".btn_mnu").click(function() {
 	$(this).toggleClass("active");
 	$(".top_side").toggleClass("active");
 });
+$(".btn_mnu1").click(function() {
+	$(this).toggleClass("active");
+	$(".top_side").toggleClass("active");
+});
 
 $(".popup").click(function() {
 	$(this).toggleClass("active");
 	$(".email-form").toggleClass("active");
+	$(".slider").toggleClass("active");
 });
 </script>
+
+
 </body>
 </html>
