@@ -7,8 +7,46 @@
 	<title>Гравитация</title>
 </head>
 <body>
- <header class="main-header clearfix">
- 	<div class="container">
+
+<aside class="top_side ">
+	<div class="container">
+
+		<div class="top_side-column">
+		<div class="top_side_cont">
+			Наши контакты
+		</div>
+		<div class="top_side_adress">
+			12345 South Main Street</br>
+		Rancho Cucamonga, CA 958743
+		</div>
+		<a href="#" class="btn-top_side">Посмотреть маршрут</a>
+		</div>
+
+		<div class="top_side-column">
+		<div class="top_side-email">
+		hellofriend@суперновый.рф
+		</div>
+		<div class="top_side-phone">8(909)745-94-91</div>
+		<a href="#" class="btn-top_side">Написать письмо</a>
+		</div>
+
+		<div class="top_side-column">
+		<div class="top_side-title">
+			Работай с нами
+		</div>
+		<div class="top_side-text">
+			Мы даем возможность простым, открытым людям расти в профессиональном и личном плане. 
+			Вместе мы работаем над тем, чтобы сделать лучше свою повседневную жизнь и жизнь наших покупателей.
+		</div>
+		</div>
+
+	</div>
+
+</div>
+</aside>
+
+ <header class="main-header ">
+ 	<div class="container clearfix">
  		<div class="logo">
  			<a href="#">суперн<span><img src="img/O.png" alt=""></span>вый</a>
  		</div>
@@ -21,7 +59,11 @@
  			<li><a href="#">блог</a></li>
  			<li><a href="#">страницы</a></li>
  			<li><a href="#">шорткоды</a></li>
- 			<li><a href="#">контакты</a></li>
+ 			
+ 			<li class="btn_mnu">контакты</li>
+	<!--<div class="btn_row"></div>
+	<div class="btn_row"></div>
+	<div class="btn_row"></div>--></li>
  		</ul>
  	</nav>
 
@@ -169,6 +211,12 @@
 		</div>
 
  	</div>
-	
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script>
+$(".btn_mnu").click(function() {
+	$(this).toggleClass("active");
+	$(".top_side").toggleClass("active");
+});
+</script>
 </body>
 </html>
