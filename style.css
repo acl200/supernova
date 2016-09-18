@@ -179,7 +179,7 @@ input[type=email]{
 	background-color: #752e27;
 }
 .email-form-btn{
-	
+
 	display:block;
 	width:125px;
 	margin:0 auto;
@@ -338,7 +338,7 @@ input[type=email]{
 	background: rgba(7, 4, 10, 0.87);
 }
 .container{
-
+	
 	width: 940px;
 	margin:0 auto;
 }
@@ -416,8 +416,17 @@ input[type=email]{
 	letter-spacing: 5px;
 	
 }
-
+/*nav.main-nav {
+    margin-right: 30px;
+}
+*/
+li>img{
+	top:1px;
+	position:relative;
+	margin-top:4px;
+}
 .slider-title-block h1{
+	overflow: hidden;
 	color:#fff;
 	text-align: center;
 	text-transform: uppercase;
