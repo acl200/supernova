@@ -29,18 +29,22 @@
    /* margin-bottom: 1px;*/
    
 }
-.tosp_side:before{
+.top_side:before{
+	border: 10px solid transparent;	border-top: 10px solid #dd3f19;
+	/*background-color: #dd3f19;*/
 	position:absolute;
-	top:0;
+	top:220px;
 	bottom:0;
-	left: -5px;
-	width: 100%;
-	border-bottom:1px solid #e5e5e5;
-	content:"111";
+	right: 360px;
+	/*width:10px;
+	height:10px;*/
+
+	
+	content:"";
 
 }
 .top_side{
-	overflow: auto;
+	overflow: hidden;
 	background-color: #dd3f19;
 	/*position:fixed;*/
 	left:0;
@@ -52,9 +56,9 @@
 	visibility:hidden;
 }
 .top_side.active{
-	-webkit-transition: all 1s;
+	/*-webkit-transition: all 1s;
 	-o-transition: all 1s;
-	transition: all 1s;
+	transition: all 1s;*/
 	height:220px;
 	z-index: 20;
 	visibility:visible;
@@ -110,6 +114,15 @@
 	font-size: 12px;
 	font-weight: bold;
 	color:#fff;
+}
+.email-form{
+	
+}
+.popup.active{
+
+}
+.popup{
+
 }
 .btn_mnu {
 	padding: 44px 22px;

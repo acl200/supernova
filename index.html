@@ -27,7 +27,7 @@
 		hellofriend@суперновый.рф
 		</div>
 		<div class="top_side-phone">8(909)745-94-91</div>
-		<a href="#" class="btn-top_side">Написать письмо</a>
+		<a href="#" class="btn-top_side" class="popup">Написать письмо</a>
 		</div>
 
 		<div class="top_side-column">
@@ -216,6 +216,11 @@
 $(".btn_mnu").click(function() {
 	$(this).toggleClass("active");
 	$(".top_side").toggleClass("active");
+});
+
+$(".popup").click(function() {
+	$(this).toggleClass("active");
+	$(".email-form").toggleClass("active");
 });
 </script>
 </body>
