@@ -1,3 +1,6 @@
+.body{
+	font-family: "MyriadProRegular", sans-serif;
+}
 .clearfix:after {
   content: "";
   display: table;
@@ -86,7 +89,7 @@
 	color:#dd3f19;
 	font-weight: lighter;
 	letter-spacing: 5px;
-	font-family: "MyriadProRegular", sans-serif;
+	
 }
 
 .slider-title-block h1{
@@ -96,7 +99,7 @@
 	font-size: 100px;
 	font-weight: 100;
 	letter-spacing: 43px;
-	font-family: "MyriadProRegular", sans-serif;
+	
 }
 
 .slider-title-block p{
@@ -106,7 +109,7 @@
 	text-align: center;
 	font-weight: lighter;
 	margin-bottom:210px;
-	font-family: "MyriadProRegular", sans-serif;
+	
 
 }
 
